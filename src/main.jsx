@@ -14,8 +14,8 @@ import { BrowserRouter } from 'react-router-dom';
 // import { CallbackHook } from './06-memos/CallbackHook';
 // import { Padre } from './07-tarea-memo/Padre';
 // import './08-useReducer/intro-reducer';
-import { TodoApp } from './08-useReducer/TodoApp';
-// import { MainApp } from './09-useContext/MainApp';
+// import { TodoApp } from './08-useReducer/TodoApp';
+import { MainApp } from './09-useContext/MainApp';
 
 // import { Swatch } from './practice/Swatch';
 import './index.css';
@@ -23,7 +23,7 @@ import './index.css';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
     <React.StrictMode>
-      <TodoApp />
+      <MainApp />
     </React.StrictMode>
   </BrowserRouter>
 );
